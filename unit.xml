@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/var/www/html/birthday-records/src/components/Table.test.js" errors="0" package="/var/www/html/birthday-records/src/components/Table.test.js" hostname="localhost" tests="4" failures="1" time="1.017" timestamp="2020-06-14T13:49:00">
+    <properties>
+    </properties>
+    <testcase classname="TableComponent" name="check date comparison" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  1
+Received:
+  574128000000
+    at Object.it (/var/www/html/birthday-records/src/components/Table.test.js:24:32)
+    at Object.asyncFn (/var/www/html/birthday-records/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/var/www/html/birthday-records/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/var/www/html/birthday-records/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/var/www/html/birthday-records/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="TableComponent" name="check name comparison" time="0">
+    </testcase>
+    <testcase classname="TableComponent" name="check number of rows rendered" time="0">
+    </testcase>
+    <testcase classname="TableComponent" name="check random row for sort by name" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="/var/www/html/birthday-records/src/components/Radio.test.js" errors="0" package="/var/www/html/birthday-records/src/components/Radio.test.js" hostname="localhost" tests="2" failures="0" time="0.255" timestamp="2020-06-14T13:49:01">
+    <properties>
+    </properties>
+    <testcase classname="RadioComponent" name="check if radio state changes by name" time="0">
+    </testcase>
+    <testcase classname="RadioComponent" name="check if radio state changes by age" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/var/www/html/birthday-records/src/App.test.js" errors="0" package="/var/www/html/birthday-records/src/App.test.js" hostname="localhost" tests="1" failures="1" time="0.493" timestamp="2020-06-14T13:49:01">
+    <properties>
+    </properties>
+    <testcase classname="AppComponent" name="check if parameterState changes" time="0">
+      <failure message="ReferenceError: React is not defined
+    at Object.it (/var/www/html/birthday-records/src/App.test.js:13:40)
+    at Object.asyncFn (/var/www/html/birthday-records/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/var/www/html/birthday-records/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/var/www/html/birthday-records/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/var/www/html/birthday-records/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
